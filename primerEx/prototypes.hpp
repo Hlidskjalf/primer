@@ -12,5 +12,6 @@
 #include <iostream>
 
 int printTest();
+int counter();
 
 #endif /* prototypes_hpp */

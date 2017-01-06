@@ -10,7 +10,8 @@
 
 int main(int argc, char **argv) {
 
-    printTest();
+    //printTest();
+    counter();
     
     return 0;
 }
