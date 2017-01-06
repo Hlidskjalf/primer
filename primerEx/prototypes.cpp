@@ -10,7 +10,13 @@
 
 int printTest()
 {
-    std::cout << "Test" << std::endl;
+    int x, y;
+    
+    std::cout << "Enter x: ";
+    std::cin >> x;
+    std::cout << "Enter y: ";
+    std::cin >> y;
+    std::cout << "X + y = " << x + y << std::endl;
     
     return 0;
 }
