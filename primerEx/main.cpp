@@ -7,11 +7,15 @@
 //
 
 #include "prototypes.hpp"
+#include "string_practice.hpp"
 
 int main(int argc, char **argv) {
 
+    terminateIfEmpty();
+    //readNonempty();
+    //readString();
     //printTest();
-    counter();
+    //counter();
     
     return 0;
 }
