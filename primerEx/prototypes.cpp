@@ -8,15 +8,19 @@
 
 #include "prototypes.hpp"
 
+using std::cin;
+using std::cout;
+using std::endl;
+
 int printTest()
 {
     int x, y;
     
-    std::cout << "Enter x: ";
-    std::cin >> x;
-    std::cout << "Enter y: ";
-    std::cin >> y;
-    std::cout << "X + y = " << x + y << std::endl;
+    cout << "Enter x: ";
+    cin >> x;
+    cout << "Enter y: ";
+    cin >> y;
+    cout << "X + y = " << x + y << endl;
     
     return 0;
 }
@@ -31,19 +35,19 @@ int counter()
     
     int currVal = 0, val = 0;
                                    // read the first number and ensure that we have data to process
-    if (std::cin >> currVal) {
+    if (cin >> currVal) {
         int cnt = 1;               // store the count for the current value we are processing
-        while (std::cin >> val) {
+        while (cin >> val) {
             if (val == currVal)    // if the value stored equals the value being read,
                 ++cnt;             // increment the counter.
             else {                 // print the count of the values
-                std::cout << currVal << " occurrs " << cnt << " times." << std::endl;
+                cout << currVal << " occurrs " << cnt << " times." << endl;
                 currVal = val;     // to remember the new value
                 cnt = 1;           // reset the counter
             }
         }
         
-        std::cout << currVal << " occurs " << cnt << " times." << std::endl;
+        cout << currVal << " occurs " << cnt << " times." << endl;
     }
     
     return 0;

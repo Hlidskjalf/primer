@@ -6,14 +6,21 @@
 //  Copyright © 2017 com.andrewvroman. All rights reserved.
 //
 
+#include <string>
 #include <iostream>
 #include "string_practice.hpp"
-#include <string>
 
 using std::string;
 using std::cin;
 using std::cout;
 using std::endl;
+
+/* 
+ * Three functions to gather full lines from the console. One reads
+ * and repeats every newline char, one only repeats if there is 
+ * something on the line being read, and the third terminates if 
+ * there is nothing on the input stream.
+ */
 
 int readString()
 {

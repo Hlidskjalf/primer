@@ -44,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE4927F41E2AEEB000A02E79 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				CE4927F21E29967C00A02E79 /* string_practice.hpp */,
+				CEA7D4321E1FF4E800FE68DB /* prototypes.hpp */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
 		CE6E72071E1A0A08002C2C30 = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +72,10 @@
 		CE6E72121E1A0A08002C2C30 /* primerEx */ = {
 			isa = PBXGroup;
 			children = (
-				CE6E72131E1A0A08002C2C30 /* main.cpp */,
 				CEA7D4311E1FF4E800FE68DB /* prototypes.cpp */,
 				CE4927F11E29967C00A02E79 /* string_practice.cpp */,
-				CE4927F21E29967C00A02E79 /* string_practice.hpp */,
-				CEA7D4321E1FF4E800FE68DB /* prototypes.hpp */,
+				CE6E72131E1A0A08002C2C30 /* main.cpp */,
+				CE4927F41E2AEEB000A02E79 /* headers */,
 			);
 			path = primerEx;
 			sourceTree = "<group>";
