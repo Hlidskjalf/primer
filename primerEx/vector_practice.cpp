@@ -17,6 +17,8 @@ using std::cin;
 using std::endl;
 
 
+// Uses push_back to add ints to a vector, then prints out a formatted block
+// of the numbers added (right justified, rows of 10)
 int add_integers()
 {
     vector<int> v2;
