@@ -14,5 +14,9 @@
 int readString();
 int readNonempty();
 int terminateIfEmpty();
+int charReading();
+int punctuation_count();
+int to_uppercase();
+int hex_converter();
 
 #endif /* string_practice_hpp */

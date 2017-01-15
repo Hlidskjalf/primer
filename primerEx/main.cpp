@@ -8,10 +8,16 @@
 
 #include "prototypes.hpp"
 #include "string_practice.hpp"
+#include "vector_practice.hpp"
 
 int main(int argc, char **argv) {
 
-    terminateIfEmpty();
+    add_integers();
+    //hex_converter();
+    //to_uppercase();
+    //punctuation_count();
+    //charReading();
+    //terminateIfEmpty();
     //readNonempty();
     //readString();
     //printTest();
