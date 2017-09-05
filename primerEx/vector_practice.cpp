@@ -28,7 +28,7 @@ int add_integers()
     {
             if(i % 10 == 0)
                 cout << "\n";
-        cout << std::setw(2) << i << " ";
+        cout << std::setw(2) << i << " " << "\n";
     }
     return 0;
 }
